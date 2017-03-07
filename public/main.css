@@ -1,0 +1,75 @@
+h1{
+  text-align:center;
+
+}
+
+
+#picture {
+	width: 100%;
+	border-radius: 10px;
+  margin: 20px;
+}
+
+.photo {
+	padding: 10px;
+	background-color: #red;
+  border-radius: 10px;
+	border: 15px solid #black;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+
+body {
+  background-color: #ADACAC;
+  font-family: 'Germania One', cursive;
+  font-size: 30px;
+}
+
+{
+  border: solid;
+  text-align: center;
+  height: 100px;
+  text-size: 80px;
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  backgroung-color: pink;
+}
+
+.container {
+	padding: 10px;
+	background-color: #red;
+  border-radius: 10px;
+	border: 15px solid #black;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+
+#button-wrapper  {
+ text-align: center;
+ border: solid;
+ text-align: center;
+ height: 100px;
+ text-size: 80px;
+ font-family: 'Cormorant Garamond', serif;
+ color: black;
+
+}
+
+#button-wrapper button {
+ margin: 15px;
+ font-size: 60px;
+ padding: 10 20 10 20;
+ border-radius: 28px;
+}
+
+button:hover {
+ background: #3cb0fd ;
+ background-image: -webkit-linear-gradient(top, #3cb0fd , #3498db );
+ background-image: -moz-linear-gradient(top, #3cb0fd , #3498db );
+ background-image: -ms-linear-gradient(top, #3cb0fd , #3498db );
+ background-image: -o-linear-gradient(top, #3cb0fd , #3498db );
+ background-image: linear-gradient(to bottom, #3cb0fd , #3498db );
+ text-decoration: none;
+}

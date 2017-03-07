@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app='myMod'>
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Germania+One" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+<h1>Zielinski Boys</h1>
+
+<div id= "button wrapper">
+  <button ng-click="#/noah"Noah><a href ="#/noah">Noah</a></button>
+  <button ng-click="#/dane"Dane><a href ="#/dane">Dane</a></button>
+  <button ng-click="#/ian"Dane><a href ="#/ian">Ian</a></button>
+  <button ng-click="#/random"Dane><a href ="#/random">Weekly Schedule</a></button>
+</div>
+
+  <ng-view></ng-view>
+
+
+
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js'></script>
+  <script src='module.js'></script>
+  <script src='config.js'></script>
+  <script src='controller.js'></script>
+
+</body>
+</html>
